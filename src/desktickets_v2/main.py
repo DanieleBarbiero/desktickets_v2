@@ -1,2 +1,8 @@
-def greet() -> str:
-    return "hello from desktickets_v2"
+from desktickets_v2.cli import main
+
+
+__all__ = ["main"]
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

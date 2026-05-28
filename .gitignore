@@ -12,6 +12,9 @@ __pycache__/
 .coverage
 htmlcov/
 
+# local SQLite data
+*.db
+
 # build artifacts
 build/
 dist/

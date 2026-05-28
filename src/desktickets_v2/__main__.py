@@ -1,9 +1,5 @@
-from desktickets_v2.main import greet
-
-
-def main() -> None:
-    print(greet())
+from desktickets_v2.cli import main
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
